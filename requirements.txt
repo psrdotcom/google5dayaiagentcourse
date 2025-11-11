@@ -1,0 +1,10 @@
+# Google Agent Development Kit and related dependencies
+google-adk
+google-genai
+kaggle_secrets  # Only needed when running in Kaggle environment
+
+# Additional dependencies
+python-dotenv  # For loading environment variables from .env file
+requests       # For HTTP requests
+asyncio        # For async operations (built-in for Python 3.7+)
+typing         # For type hints (built-in for Python 3.5+)
